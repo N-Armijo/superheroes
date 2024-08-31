@@ -14,7 +14,7 @@ jQuery.fn.superhero = function(token, heroId) {
   };
   $.ajax(settings)
   .done(function (response) {
-    // Gráfico
+    //Grafico
     // Poblando los datapoints
     const chartData = []
     for(const power in response.powerstats) {

@@ -7,7 +7,7 @@ const manejoFomulario = function(e) {
   validarFormulario(idHeroe);
 }
 function validarFormulario(datos) {
-  const token = '5739f919c082050a6eb2e3acfbbcadc6';
+  const token = '3572a92b3c147a4bfd21ff01ab5936c8';
   const regex = /^\d+$/;
   if (regex.test(datos) && datos > 0 && datos <= 733 ) {
     $("#img-welcome").addClass("d-none");
